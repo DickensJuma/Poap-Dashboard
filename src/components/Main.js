@@ -249,7 +249,30 @@ function Main() {
           <div id="chartdiv"></div>
         </div>
       </div>
-      {/* /.main-cards */}
+      <div className="main-cards">
+        <div className="col-md-4 col-md-offset-4">
+          <p>
+            <div align="center">
+              <p> Accounts holding POAP</p>
+              <p>Hover to show Details</p>
+              <div id="piechart"></div>
+              <p>
+                <small>Total and Percentage</small>
+              </p>
+            </div>
+          </p>
+          <div style={{ position: "relative" }}>
+            <div className="c100 p74 big">
+              <span className="font-family-Avenir font-size-super">74%</span>
+              <div className="slice">
+                <div className="bar" />
+                <div className="fill" />
+              </div>
+              <p className="complete-text font-family-primary font-weight-regular" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }

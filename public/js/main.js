@@ -25,7 +25,7 @@ function toggleClass(el, className) {
 
 // User avatar dropdown functionality
 function setUserDropdownListener() {
-  const userAvatar = $(".header__avatar");
+  const userAvatar = $(".header-avatar");
 
   userAvatar.on("click", function (e) {
     const dropdown = $(this).children(".dropdown");
@@ -35,9 +35,9 @@ function setUserDropdownListener() {
 
 // Sidenav list sliding functionality
 function setSidenavListeners() {
-  const subHeadings = $(".navList__subheading");
+  const subHeadings = $(".navList-subheading");
   console.log("subHeadings: ", subHeadings);
-  const SUBHEADING_OPEN_CLASS = "navList__subheading--open";
+  const SUBHEADING_OPEN_CLASS = "navList-subheading--open";
   const SUBLIST_HIDDEN_CLASS = "subList--hidden";
 
   subHeadings.each((i, subHeadingEl) => {
@@ -164,7 +164,7 @@ function addResizeListeners() {
 
 // Menu open sidenav icon, shown only on mobile
 function setMenuClickListener() {
-  $(".header__menu").on("click", function (e) {
+  $(".header-menu").on("click", function (e) {
     console.log("clicked menu icon");
     toggleClass(sidenavEl, SIDENAV_ACTIVE_CLASS);
     toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
@@ -173,7 +173,7 @@ function setMenuClickListener() {
 
 // Sidenav close icon
 function setSidenavCloseListener() {
-  $(".sidenav__brand-close").on("click", function (e) {
+  $(".sidenav-brand-close").on("click", function (e) {
     toggleClass(sidenavEl, SIDENAV_ACTIVE_CLASS);
     toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
   });
