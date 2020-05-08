@@ -76,7 +76,7 @@ a {
   border: none;
 }
 .header-avatar {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1609106/headshot.png");
+  background-image: url("https://avatars1.githubusercontent.com/u/48822462?s=460&u=8f32369cf0759351f9c7050b21d868ca5544d973&v=4");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -199,10 +199,10 @@ a {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .sidenav-profile-avatar {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1609106/headshot.png");
+  background-image: url("https://www.poap.xyz/POAP.f74a7300.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 2px solid rgba(255, 255, 255, 0.2);
   height: 64px;
   width: 64px;
@@ -643,6 +643,10 @@ a {
   height: 300px;
   font-size: 11px;
   min-width: 0;
+}
+
+svg desc {
+  display: none;
 }
 
 .footer {
