@@ -1,4 +1,5 @@
 import React from "react";
+import { today, documents } from "./data";
 
 function Main() {
   return (
@@ -14,25 +15,14 @@ function Main() {
             </div>
           </div>
           <div className="quickview">
-            <div className="quickview-item">
-              <div className="quickview-item-total">41</div>
-              <div className="quickview-item-description">
-                <span className="text-light">Grand Total POAP</span>
+            {today.map(({ amount, item }, i) => (
+              <div className="quickview-item" key={i}>
+                <div className="quickview-item-total">{amount}</div>
+                <div className="quickview-item-description">
+                  <span className="text-light">{item}</span>
+                </div>
               </div>
-            </div>
-            <div className="quickview-item">
-              <div className="quickview-item-total">4</div>
-              <div className="quickview-item-description">
-                <span className="text-light"> Daily Tokens </span>
-              </div>
-            </div>
-            <div className="quickview-item">
-              <div className="quickview-item-total">17</div>
-              <div className="quickview-item-description">
-                <i className="fas fa-comment" />
-                <span className="text-light">Messages</span>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -106,19 +96,17 @@ function Main() {
                 <i className="fas fa-gift" />
               </div>
               <div className="card-time">
-                <div>today</div>
+                <div>Today</div>
               </div>
               <div className="card-detail">
                 <div className="card-source text-bold">Poap Admin</div>
-                <div className="card-description">
-                  Received 4 Daily Tokens at 8:30pm. !
-                </div>
-                <div className="card-note">1404 Gibson St</div>
+                <div className="card-description">Received 4 Daily Tokens</div>
+                <div className="card-note">8:30pm, 1404 Gibson St</div>
               </div>
             </div>
             <div className="card-row">
               <div className="card-icon">
-                <i className="fas fa-plane" />
+                <i className="fas fa-book" />
               </div>
               <div className="card-time">
                 <div>Tuesday</div>
@@ -126,14 +114,14 @@ function Main() {
               <div className="card-detail">
                 <div className="card-source text-bold">MetaMask</div>
                 <div className="card-description">
-                  Account 1 was created with 4 POAP Token at 4:30pm
+                  Account 1 was created with 4 POAP Token
                 </div>
-                <div className="card-note">Delta, Gate 27B</div>
+                <div className="card-note">4:30pm, Delta, Gate 27B</div>
               </div>
             </div>
             <div className="card-row">
               <div className="card-icon">
-                <i className="fas fa-book" />
+                <i className="fas fa-plane" />
               </div>
               <div className="card-time">
                 <div>Thursday</div>
@@ -206,26 +194,13 @@ function Main() {
           </div>
           <div className="card">
             <div className="documents">
-              <div className="document">
-                <div className="document-img" />
-                <div className="document-title">Daily </div>
-                <div className="document-date">07/16/2018</div>
-              </div>
-              <div className="document">
-                <div className="document-img" />
-                <div className="document-title">Weekly</div>
-                <div className="document-date">09/04/2018</div>
-              </div>
-              <div className="document">
-                <div className="document-img" />
-                <div className="document-title">Monthly</div>
-                <div className="document-date">10/10/2018</div>
-              </div>
-              <div className="document">
-                <div className="document-img" />
-                <div className="document-title">Yearly</div>
-                <div className="document-date">11/01/2018</div>
-              </div>
+              {documents.map(({ title, date }, i) => (
+                <div className="document" key={i}>
+                  <div className="document-img" />
+                  <div className="document-title">{title} </div>
+                  <div className="document-date">{date}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

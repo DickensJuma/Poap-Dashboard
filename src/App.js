@@ -1,6 +1,6 @@
 import React from "react";
 import Header from './components/Header'
-import SideNav from './components/SideNav'
+import SideNav from './components/sideNav/SideNav'
 import Main from './components/Main'
 import Footer from './components/Footer'
 

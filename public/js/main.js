@@ -178,3 +178,37 @@ function setSidenavCloseListener() {
     toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
   });
 }
+
+google.charts.load("current", { packages: ["corechart"] });
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+    ["Account 1", "2014"],
+    ["Acount 2", 1844],
+    ["Account 3", 300],
+    ["Account 4", 991],
+    ["Account 5", 692],
+    ["Poap Wallet", 1368],
+    ["Other Acc", 802],
+  ]);
+
+  var options = {
+    pieSliceText: "Account 1",
+    slices: {
+      0: { color: "#f7b15b", offset: 0.2 },
+      1: { color: "#ffca71" },
+      2: { color: "#be7f29" },
+      3: { color: "#9f6407" },
+      4: { color: "#7c4600" },
+      5: { color: "#5d2d00" },
+    },
+
+    backgroundColor: "#f9f9fb",
+    chartArea: { left: 0, top: 20, width: "100%", height: "90%" },
+  };
+
+  var chart = new google.visualization.PieChart(
+    document.getElementById("piechart")
+  );
+  chart.draw(data, options);
+}
