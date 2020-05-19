@@ -1,68 +1,119 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-### `npm start`
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/DickensJuma/Poap-Dashboard">
+    <img src="images/poap.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h3 align="center"> Poap-Dashboard</h3>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <p align="center">
+     This Project Consists of a dashboard to display statistics Data For NFT Usage
+    <br />
+    <a href="https://github.com/DickensJuma/Poap-Dashboard"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://raw.githack.com/DickensJuma/Poap-Dashboard/feature/index.html">View Demo</a>
+    ·
+    <a href="https://github.com/DickensJuma/Poap-Dashboard/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DickensJuma/Poap-Dashboard/issues">Request Feature</a>
+  </p>
+</p>
 
-### `npm test`
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Installation](#installation)
+  - [Built With](#built-with)
+- [Live version](#live-version)
+- [Contributor](#contributor)
+- [Acknowledgements](#acknowledgements)
+- [📝 License](#%f0%9f%93%9d-license)
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Product Name Screen Shot][product-screenshot]](images/poap.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## Installation
+Contributions, issues and feature requests are welcome! Start by:
+* Forking the project
+* Cloning the project to your local machine
+* `cd` into the project directory
+* Run `git checkout -b your-branch-name`
+* Make your contributions
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-### `npm run eject`
+### Built With
+This project was built using these technologies.
+* HTML5
+* CSS3
+* React
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- LIVE VERSION -->
+## Live version
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can see it working [here](https://raw.githack.com/DickensJuma/Poap-Dashboard/feature/index.html)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- CONTACT -->
+## Contributors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Dickens Juma** 
+    
+- LinkedIn: [Dickens Juma](https://www.linkedin.com/in/dickens-juma-363061182/) 
+- GitHub: [@DickensJuma](https://github.com/DickensJuma)
+- Twitter: [@juma_dickens](https://twitter.com/juma_dickens)
+- E-mail: dickensjuma13@gmail.com
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Microverse](https://www.microverse.org/)
+* [The Odin Project](https://www.theodinproject.com/)
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/DickensJuma/Poap-Dashboard.svg?style=flat-square
+[contributors-url]: https://github.com/DickensJuma/Poap-Dashboard/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/DickensJuma/Poap-Dashboard.svg?style=flat-square
+[forks-url]: https://github.com/DickensJuma/Poap-Dashboard/network/members
+[stars-shield]: https://img.shields.io/github/stars/DickensJuma/Poap-Dashboard.svg?style=flat-square
+[stars-url]: https://github.com/DickensJuma/Poap-Dashboard/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DickensJuma/Poap-Dashboard.svg?style=flat-square
+[issues-url]: https://github.com/DickensJuma/Poap-Dashboard/issues
+[product-screenshot]: images/poap.png
 
-### Analyzing the Bundle Size
+## 📝 License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
