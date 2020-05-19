@@ -57,11 +57,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](images/poap.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/DickensJuma/Poap-Dashboard/blob/feature/public/images/poap.png)
 
 
 <!-- ABOUT THE PROJECT -->
-## Installation
+## Contributions
 Contributions, issues and feature requests are welcome! Start by:
 * Forking the project
 * Cloning the project to your local machine
@@ -73,9 +73,10 @@ Contributions, issues and feature requests are welcome! Start by:
 
 ### Built With
 This project was built using these technologies.
+* React
 * HTML5
 * CSS3
-* React
+
 
 <!-- LIVE VERSION -->
 ## Live version
@@ -95,11 +96,6 @@ You can see it working [here](https://raw.githack.com/DickensJuma/Poap-Dashboard
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Microverse](https://www.microverse.org/)
-* [The Odin Project](https://www.theodinproject.com/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
